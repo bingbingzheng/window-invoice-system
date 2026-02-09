@@ -154,6 +154,15 @@ node database/insert-default-accounts.js --force
 - **Boss**: `boss` / `boss123`
 - **Employee**: `employee` / `employee123`
 
+### Change Password / 修改密码
+You can change any user's password directly from the server terminal:
+你可以直接在服务器终端修改任何用户的密码：
+
+```bash
+# Usage: node database/reset-password.js <username> <new_password>
+node database/reset-password.js boss MyNewSecretPassword123
+```
+
 ⚠️ **Security Warning**: Change passwords immediately after first login!
 ⚠️ **安全警告**: 首次登录后请立即修改密码！
 
