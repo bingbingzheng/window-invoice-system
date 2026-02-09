@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Database
+database/*.db
+database/*.db-journal
+
+# SSL Certificates (sensitive - should be generated locally)
+certs/*.pem
+
+# Uploaded files
+uploads/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
