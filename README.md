@@ -134,6 +134,31 @@ Since we use a self-signed certificate, browsers will show a security warning on
 
 ---
 
+## Account Management / 账户管理
+
+### View Accounts / 查看账户
+To view existing accounts:
+查看现有账户：
+```bash
+node database/insert-default-accounts.js
+```
+
+### Reset Accounts / 重置账户
+To reset to default accounts (WARNING: deletes all existing admins):
+重置为默认账户（警告：会删除所有现有管理员）：
+```bash
+node database/insert-default-accounts.js --force
+```
+
+**Default Credentials / 默认凭据:**
+- **Boss**: `boss` / `boss123`
+- **Employee**: `employee` / `employee123`
+
+⚠️ **Security Warning**: Change passwords immediately after first login!
+⚠️ **安全警告**: 首次登录后请立即修改密码！
+
+---
+
 ## Usage Guide / 使用指南
 
 ### Initial Setup / 初始设置
